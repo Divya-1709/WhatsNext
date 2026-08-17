@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@import "./styles/globals.css";
+
+@theme {
+  /* Primary Brand Colors */
+  --color-brand-blue: #2563EB;
+  --color-brand-blue-light: #3B82F6;
+  --color-brand-blue-dark: #1D4ED8;
+
+  --color-brand-orange: #F97316;
+  --color-brand-orange-light: #FB923C;
+  --color-brand-orange-dark: #EA580C;
+
+  /* Neutral/Navy Palette */
+  --color-navy-950: #020617;
+  /* Very dark slate, almost black */
+  --color-navy-900: #0F172A;
+  /* Slate 900 */
+  --color-navy-800: #1E293B;
+  /* Slate 800 */
+  --color-navy-700: #334155;
+  /* Slate 700 */
+
+  --color-gray-100: #F1F5F9;
+  /* Slate 100 */
+  --color-gray-50: #F8FAFC;
+  /* Slate 50 */
+
+  /* Tech-focused accent tokens */
+  --color-electric-blue: #00A8FF;
+  --color-cyan-accent: #06D6DA;
+  --color-navy-deep: #020617;
+  --color-navy-mid: #0a0f2e;
+
+  --font-heading: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
